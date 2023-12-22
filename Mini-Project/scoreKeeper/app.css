@@ -1,0 +1,12 @@
+@media screen and (max-width: 850px) {
+    .card-footer .button.is-responsive {
+        font-size: 0.9rem; 
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .card-footer .button.is-responsive {
+        font-size: 0.7rem; 
+    }
+}
+
