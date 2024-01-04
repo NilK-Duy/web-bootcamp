@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>New Farm</title>
+    </head>
+    <body>
+        <h1>Add A Farm</h1>
+        <form action="/farms" method="POST">
+            <label for="name">Farm Name</label>
+            <input type="text" name="name" id="name" placeholder="farm name" />
+            <label for="city">Farm City</label>
+            <input type="text" name="city" id="city" placeholder="farm city" />
+            <label for="email">Farm Email</label>
+            <input type="email" name="email" id="email" placeholder="farm@gamil.com" />
+            <button>Submit</button>
+        </form>
+        <a href="/farms">All Farms</a>
+    </body>
+</html>
